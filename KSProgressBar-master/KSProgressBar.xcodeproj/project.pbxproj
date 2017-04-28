@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2C30B61EAEFBA4005E61D1 /* KSProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2C30B51EAEFBA4005E61D1 /* KSProgressBar.m */; };
+		DB3B7A271E9B7CE10096C5D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3B7A261E9B7CE10096C5D1 /* main.m */; };
+		DB3B7A2A1E9B7CE10096C5D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3B7A291E9B7CE10096C5D1 /* AppDelegate.m */; };
+		DB3B7A2D1E9B7CE10096C5D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3B7A2C1E9B7CE10096C5D1 /* ViewController.m */; };
+		DB3B7A301E9B7CE10096C5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3B7A2E1E9B7CE10096C5D1 /* Main.storyboard */; };
+		DB3B7A331E9B7CE10096C5D1 /* KSProgressBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB3B7A311E9B7CE10096C5D1 /* KSProgressBar.xcdatamodeld */; };
+		DB3B7A351E9B7CE10096C5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3B7A341E9B7CE10096C5D1 /* Assets.xcassets */; };
+		DB3B7A381E9B7CE10096C5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3B7A361E9B7CE10096C5D1 /* LaunchScreen.storyboard */; };
+		DB3B7A431E9B7CE10096C5D1 /* KSProgressBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3B7A421E9B7CE10096C5D1 /* KSProgressBarTests.m */; };
+		DB3B7A4E1E9B7CE10096C5D1 /* KSProgressBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3B7A4D1E9B7CE10096C5D1 /* KSProgressBarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB3B7A3F1E9B7CE10096C5D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3B7A1A1E9B7CE10096C5D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3B7A211E9B7CE10096C5D1;
+			remoteInfo = KSProgressBar;
+		};
+		DB3B7A4A1E9B7CE10096C5D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3B7A1A1E9B7CE10096C5D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3B7A211E9B7CE10096C5D1;
+			remoteInfo = KSProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB2C30B41EAEFBA4005E61D1 /* KSProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSProgressBar.h; sourceTree = "<group>"; };
+		DB2C30B51EAEFBA4005E61D1 /* KSProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSProgressBar.m; sourceTree = "<group>"; };
+		DB3B7A221E9B7CE10096C5D1 /* KSProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3B7A261E9B7CE10096C5D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB3B7A281E9B7CE10096C5D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB3B7A291E9B7CE10096C5D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB3B7A2B1E9B7CE10096C5D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB3B7A2C1E9B7CE10096C5D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB3B7A2F1E9B7CE10096C5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB3B7A321E9B7CE10096C5D1 /* KSProgressBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KSProgressBar.xcdatamodel; sourceTree = "<group>"; };
+		DB3B7A341E9B7CE10096C5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3B7A371E9B7CE10096C5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB3B7A391E9B7CE10096C5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3B7A3E1E9B7CE10096C5D1 /* KSProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3B7A421E9B7CE10096C5D1 /* KSProgressBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSProgressBarTests.m; sourceTree = "<group>"; };
+		DB3B7A441E9B7CE10096C5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3B7A491E9B7CE10096C5D1 /* KSProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3B7A4D1E9B7CE10096C5D1 /* KSProgressBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSProgressBarUITests.m; sourceTree = "<group>"; };
+		DB3B7A4F1E9B7CE10096C5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB521B441E9C6E15002CA12F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		DB521B461E9C6E3F002CA12F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		DB521B481E9C7491002CA12F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DB521B4A1E9C7525002CA12F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB3B7A1F1E9B7CE10096C5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B7A3B1E9B7CE10096C5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B7A461E9B7CE10096C5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2C30B31EAEFB7E005E61D1 /* KSProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				DB2C30B41EAEFBA4005E61D1 /* KSProgressBar.h */,
+				DB2C30B51EAEFBA4005E61D1 /* KSProgressBar.m */,
+			);
+			path = KSProgressBar;
+			sourceTree = "<group>";
+		};
+		DB3B7A191E9B7CE10096C5D1 = {
+			isa = PBXGroup;
+			children = (
+				DB3B7A241E9B7CE10096C5D1 /* KSProgressBar */,
+				DB3B7A411E9B7CE10096C5D1 /* KSProgressBarTests */,
+				DB3B7A4C1E9B7CE10096C5D1 /* KSProgressBarUITests */,
+				DB3B7A231E9B7CE10096C5D1 /* Products */,
+				DB521B431E9C6E14002CA12F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3B7A231E9B7CE10096C5D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB3B7A221E9B7CE10096C5D1 /* KSProgressBar.app */,
+				DB3B7A3E1E9B7CE10096C5D1 /* KSProgressBarTests.xctest */,
+				DB3B7A491E9B7CE10096C5D1 /* KSProgressBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3B7A241E9B7CE10096C5D1 /* KSProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				DB2C30B31EAEFB7E005E61D1 /* KSProgressBar */,
+				DB3B7A281E9B7CE10096C5D1 /* AppDelegate.h */,
+				DB3B7A291E9B7CE10096C5D1 /* AppDelegate.m */,
+				DB3B7A2B1E9B7CE10096C5D1 /* ViewController.h */,
+				DB3B7A2C1E9B7CE10096C5D1 /* ViewController.m */,
+				DB3B7A2E1E9B7CE10096C5D1 /* Main.storyboard */,
+				DB3B7A341E9B7CE10096C5D1 /* Assets.xcassets */,
+				DB3B7A361E9B7CE10096C5D1 /* LaunchScreen.storyboard */,
+				DB3B7A391E9B7CE10096C5D1 /* Info.plist */,
+				DB3B7A311E9B7CE10096C5D1 /* KSProgressBar.xcdatamodeld */,
+				DB3B7A251E9B7CE10096C5D1 /* Supporting Files */,
+			);
+			path = KSProgressBar;
+			sourceTree = "<group>";
+		};
+		DB3B7A251E9B7CE10096C5D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB3B7A261E9B7CE10096C5D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB3B7A411E9B7CE10096C5D1 /* KSProgressBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3B7A421E9B7CE10096C5D1 /* KSProgressBarTests.m */,
+				DB3B7A441E9B7CE10096C5D1 /* Info.plist */,
+			);
+			path = KSProgressBarTests;
+			sourceTree = "<group>";
+		};
+		DB3B7A4C1E9B7CE10096C5D1 /* KSProgressBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3B7A4D1E9B7CE10096C5D1 /* KSProgressBarUITests.m */,
+				DB3B7A4F1E9B7CE10096C5D1 /* Info.plist */,
+			);
+			path = KSProgressBarUITests;
+			sourceTree = "<group>";
+		};
+		DB521B431E9C6E14002CA12F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB521B4A1E9C7525002CA12F /* CoreLocation.framework */,
+				DB521B481E9C7491002CA12F /* MapKit.framework */,
+				DB521B461E9C6E3F002CA12F /* JavaScriptCore.framework */,
+				DB521B441E9C6E15002CA12F /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3B7A211E9B7CE10096C5D1 /* KSProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3B7A521E9B7CE10096C5D1 /* Build configuration list for PBXNativeTarget "KSProgressBar" */;
+			buildPhases = (
+				DB3B7A1E1E9B7CE10096C5D1 /* Sources */,
+				DB3B7A1F1E9B7CE10096C5D1 /* Frameworks */,
+				DB3B7A201E9B7CE10096C5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSProgressBar;
+			productName = KSProgressBar;
+			productReference = DB3B7A221E9B7CE10096C5D1 /* KSProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB3B7A3D1E9B7CE10096C5D1 /* KSProgressBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3B7A551E9B7CE10096C5D1 /* Build configuration list for PBXNativeTarget "KSProgressBarTests" */;
+			buildPhases = (
+				DB3B7A3A1E9B7CE10096C5D1 /* Sources */,
+				DB3B7A3B1E9B7CE10096C5D1 /* Frameworks */,
+				DB3B7A3C1E9B7CE10096C5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3B7A401E9B7CE10096C5D1 /* PBXTargetDependency */,
+			);
+			name = KSProgressBarTests;
+			productName = KSProgressBarTests;
+			productReference = DB3B7A3E1E9B7CE10096C5D1 /* KSProgressBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB3B7A481E9B7CE10096C5D1 /* KSProgressBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3B7A581E9B7CE10096C5D1 /* Build configuration list for PBXNativeTarget "KSProgressBarUITests" */;
+			buildPhases = (
+				DB3B7A451E9B7CE10096C5D1 /* Sources */,
+				DB3B7A461E9B7CE10096C5D1 /* Frameworks */,
+				DB3B7A471E9B7CE10096C5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3B7A4B1E9B7CE10096C5D1 /* PBXTargetDependency */,
+			);
+			name = KSProgressBarUITests;
+			productName = KSProgressBarUITests;
+			productReference = DB3B7A491E9B7CE10096C5D1 /* KSProgressBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB3B7A1A1E9B7CE10096C5D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Chipen;
+				TargetAttributes = {
+					DB3B7A211E9B7CE10096C5D1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z86M8P334T;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DB3B7A3D1E9B7CE10096C5D1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z86M8P334T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB3B7A211E9B7CE10096C5D1;
+					};
+					DB3B7A481E9B7CE10096C5D1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z86M8P334T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB3B7A211E9B7CE10096C5D1;
+					};
+				};
+			};
+			buildConfigurationList = DB3B7A1D1E9B7CE10096C5D1 /* Build configuration list for PBXProject "KSProgressBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB3B7A191E9B7CE10096C5D1;
+			productRefGroup = DB3B7A231E9B7CE10096C5D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB3B7A211E9B7CE10096C5D1 /* KSProgressBar */,
+				DB3B7A3D1E9B7CE10096C5D1 /* KSProgressBarTests */,
+				DB3B7A481E9B7CE10096C5D1 /* KSProgressBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB3B7A201E9B7CE10096C5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3B7A381E9B7CE10096C5D1 /* LaunchScreen.storyboard in Resources */,
+				DB3B7A351E9B7CE10096C5D1 /* Assets.xcassets in Resources */,
+				DB3B7A301E9B7CE10096C5D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B7A3C1E9B7CE10096C5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B7A471E9B7CE10096C5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3B7A1E1E9B7CE10096C5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3B7A2D1E9B7CE10096C5D1 /* ViewController.m in Sources */,
+				DB3B7A2A1E9B7CE10096C5D1 /* AppDelegate.m in Sources */,
+				DB2C30B61EAEFBA4005E61D1 /* KSProgressBar.m in Sources */,
+				DB3B7A331E9B7CE10096C5D1 /* KSProgressBar.xcdatamodeld in Sources */,
+				DB3B7A271E9B7CE10096C5D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B7A3A1E9B7CE10096C5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3B7A431E9B7CE10096C5D1 /* KSProgressBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B7A451E9B7CE10096C5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3B7A4E1E9B7CE10096C5D1 /* KSProgressBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB3B7A401E9B7CE10096C5D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3B7A211E9B7CE10096C5D1 /* KSProgressBar */;
+			targetProxy = DB3B7A3F1E9B7CE10096C5D1 /* PBXContainerItemProxy */;
+		};
+		DB3B7A4B1E9B7CE10096C5D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3B7A211E9B7CE10096C5D1 /* KSProgressBar */;
+			targetProxy = DB3B7A4A1E9B7CE10096C5D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB3B7A2E1E9B7CE10096C5D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3B7A2F1E9B7CE10096C5D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB3B7A361E9B7CE10096C5D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3B7A371E9B7CE10096C5D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB3B7A501E9B7CE10096C5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB3B7A511E9B7CE10096C5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3B7A531E9B7CE10096C5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z86M8P334T;
+				INFOPLIST_FILE = KSProgressBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KSProgressBar",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douqu.qyd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB3B7A541E9B7CE10096C5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z86M8P334T;
+				INFOPLIST_FILE = KSProgressBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KSProgressBar",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douqu.qyd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB3B7A561E9B7CE10096C5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z86M8P334T;
+				INFOPLIST_FILE = KSProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douqu.KSProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSProgressBar.app/KSProgressBar";
+			};
+			name = Debug;
+		};
+		DB3B7A571E9B7CE10096C5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z86M8P334T;
+				INFOPLIST_FILE = KSProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douqu.KSProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSProgressBar.app/KSProgressBar";
+			};
+			name = Release;
+		};
+		DB3B7A591E9B7CE10096C5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z86M8P334T;
+				INFOPLIST_FILE = KSProgressBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douqu.KSProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSProgressBar;
+			};
+			name = Debug;
+		};
+		DB3B7A5A1E9B7CE10096C5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z86M8P334T;
+				INFOPLIST_FILE = KSProgressBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douqu.KSProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSProgressBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3B7A1D1E9B7CE10096C5D1 /* Build configuration list for PBXProject "KSProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3B7A501E9B7CE10096C5D1 /* Debug */,
+				DB3B7A511E9B7CE10096C5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3B7A521E9B7CE10096C5D1 /* Build configuration list for PBXNativeTarget "KSProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3B7A531E9B7CE10096C5D1 /* Debug */,
+				DB3B7A541E9B7CE10096C5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3B7A551E9B7CE10096C5D1 /* Build configuration list for PBXNativeTarget "KSProgressBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3B7A561E9B7CE10096C5D1 /* Debug */,
+				DB3B7A571E9B7CE10096C5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3B7A581E9B7CE10096C5D1 /* Build configuration list for PBXNativeTarget "KSProgressBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3B7A591E9B7CE10096C5D1 /* Debug */,
+				DB3B7A5A1E9B7CE10096C5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB3B7A311E9B7CE10096C5D1 /* KSProgressBar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB3B7A321E9B7CE10096C5D1 /* KSProgressBar.xcdatamodel */,
+			);
+			currentVersion = DB3B7A321E9B7CE10096C5D1 /* KSProgressBar.xcdatamodel */;
+			path = KSProgressBar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB3B7A1A1E9B7CE10096C5D1 /* Project object */;
+}
